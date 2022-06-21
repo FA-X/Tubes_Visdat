@@ -25,4 +25,5 @@ tab4 = table(df)
 
 tabs = Tabs(tabs=[tab1,tab2,tab3,tab4])
 
-show(tabs)
+#show(tabs)
+curdoc().add_root(column(tabs))
