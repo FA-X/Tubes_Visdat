@@ -1,6 +1,7 @@
 from bokeh.io import curdoc, show
 from bokeh.models.widgets import Tabs
 from bokeh.plotting import output_file
+from bokeh.layouts import row, column, gridplot
 
 
 from os.path import dirname, join
