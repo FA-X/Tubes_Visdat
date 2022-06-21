@@ -14,7 +14,7 @@ from kodingan.table import table
 
 output_file('TUBES.html')
 
-df = pd.read_csv('\.HighestGrossers.csv')
+df = pd.read_csv('/.HighestGrossers.csv')
 curdoc().theme = 'dark_minimal'
 
 tab1 = barplot(df)
